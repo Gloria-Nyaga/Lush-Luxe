@@ -1,0 +1,100 @@
+.home-hero-section {
+  margin-top: -120px;
+
+}
+
+.intro-section {
+  text-align: center;
+  padding: 2rem 2rem 2rem;
+}
+
+.main-heading {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #4A243D; 
+}
+
+.brand-name {
+  color: #310a23; 
+}
+
+.subtext {
+  font-size: 1.2rem;
+  color: #4A243D;
+  margin: 1rem 0 2rem;
+}
+
+.cta-main-btn {
+  background-color: #4A243D;
+  color: white;
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-main-btn:hover {
+  background-color:#C4AADA;
+  border: 2px solid #4A243D;
+  color:  #4A243D;
+}
+
+.brands-title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 3rem 0 1.5rem;
+  font-weight: 600;
+  color: #4A243D;
+  position: relative;
+}
+
+.brands-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2px 2rem;
+  flex-wrap: wrap;
+}
+
+.brand-card {
+  background-color: #ede2e9;
+  border-radius: 2rem;
+  padding: 1rem;
+  width: 220px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.brand-card:hover {
+  transform: translateY(-5px);
+}
+
+.brand-image-wrapper {
+  height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.brand-image {
+  max-height: 100%;
+  max-width: 120%;
+  object-fit: cover;
+  border-radius: 1.5rem;
+}
+
+.brand-label {
+  margin-top: 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+  background-color: #4A243D; 
+  border-radius: 1rem;
+  padding: 0.5rem 0.8rem;
+  display: inline-block;
+  color: #ede2e9;
+}
